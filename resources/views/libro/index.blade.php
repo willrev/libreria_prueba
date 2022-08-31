@@ -18,7 +18,6 @@
 
                             <!-- /***Select format***/ -->
 
-                           
                                 <!-- /**Boton para ver pdf****/ -->
                             <div class="float-right">
                                     <a href="{{ route('libros.pdf') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
@@ -66,7 +65,6 @@
                             <p>{{ $message }}</p>
                         </div>
                     @endif
-
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table table-striped table-hover">
@@ -74,7 +72,7 @@
                                     <tr>
                                         <th>No</th>
                                         
-										<th>Categoria</th>
+										<th>Categorias</th>
 										<th>Name</th>
 
                                         <th></th>
@@ -87,7 +85,6 @@
                                             
 											<td>{{ $libro->categoria->name }}</td>
 											<td>{{ $libro->name }}</td>
-
                                             <td>
                                                 <form action="{{ route('libros.destroy',$libro->id) }}" method="POST">
                                                     <a class="btn btn-sm btn-primary " href="{{ route('libros.show',$libro->id) }}"><i class="fa fa-fw fa-eye"></i> Show</a>
@@ -108,4 +105,5 @@
             </div>
         </div>
     </div>
+    
 @endsection
