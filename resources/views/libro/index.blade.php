@@ -5,7 +5,44 @@
 @endsection
 
 @section('content')
+
+
+    <!-- Barra de busqueda -->
+        <div class="container">
+
+            <h3>Buscar Libro</h3>
+
+                <div class="col-md-6">
+
+                        <form action="">
+
+                            <div class="form-row">
+
+                                <div class="col-sm-4 my-1">
+
+                                    <input type="text" class="form-control" name="text">
+                                
+                                </div>
+
+
+                                <div class="col-auto my-1">
+
+                                    <input type="submit" class="btn btn-primary" value="Buscar" >
+
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                </div>
+
+        </div>
+    <!-- Fin de barra -->
+
+
     <div class="container-fluid">
+
         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
