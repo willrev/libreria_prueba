@@ -9,7 +9,7 @@
     </head>
 <header>
     <h1>Cabecera de mi documento</h1>
-    <h2>Libros pdf</h2>
+    <h2> LIstado de libros pdf</h2>
   </header>
     <table class="table table-striped table-hover">
                                 <thead class="thead">
