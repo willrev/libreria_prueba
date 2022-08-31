@@ -22,6 +22,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -29,7 +30,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('libros', App\Http\Controllers\LibroController::class)->middleware('auth');
 
 Route::resource('categorias', App\Http\Controllers\CategoriaController::class)->middleware('auth');
-
 
 Route::get('contactanos', [ContactanosController::class,'index'])->name('contactanos.index');
 
