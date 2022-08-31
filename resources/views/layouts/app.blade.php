@@ -46,19 +46,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('contactanos.index') }}">{{ __('Contactanos') }}</a>
                                 </li>
-
-                                 <!-- <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('libro.exportExcel') }}">{{ __('Exportar Excel') }}</a>
-                                </li>  -->
-
-
-
-
-
-
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li> -->
+                                
                     </ul>
 
                     <!-- Right Side Of Navbar -->

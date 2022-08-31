@@ -14,13 +14,13 @@
 
                 <div class="col-md-6">
 
-                        <form action="">
+                        <form action="{{route('libros.index')}}" method="get">
 
                             <div class="form-row">
 
                                 <div class="col-sm-4 my-1">
 
-                                    <input type="text" class="form-control" name="text">
+                                    <input type="text" class="form-control" name="text" value="">
                                 
                                 </div>
 
