@@ -21,7 +21,7 @@
                                 <!-- /**Boton para ver pdf****/ -->
                             <div class="float-right">
                                     <a href="{{ route('libros.pdf') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                        {{ __('Ver Doc. PDF') }}
+                                        {{ __('Ver Documento en PDF') }}
                                     </a>
                                 </div>
 
