@@ -20,6 +20,8 @@
 
                            
                                 <!-- /**Boton para ver pdf****/ -->
+                                <!-- Este es un comentario de prueba
+                            en las lineas 23 y 24 -->
                             <div class="float-right">
                                     <a href="{{ route('libros.pdf') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
                                         {{ __('Ver Documento en PDF') }}
