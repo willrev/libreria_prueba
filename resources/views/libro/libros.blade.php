@@ -12,7 +12,7 @@
     @foreach($libro as $libros)
         <tr>
             <td>{{ $libros->id  }}</td>
-            <td>{{ $libros->categoria_id  }}</td>
+            <td>{{ $libros->categoria->name }}</td>
             <td>{{ $libros->name }}</td>
             <td>{{ $libros->created_at }}</td>
             <td>{{ $libros->updated_at }}</td>
