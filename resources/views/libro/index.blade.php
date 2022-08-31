@@ -22,14 +22,14 @@
                                 <!-- /**Boton para ver pdf****/ -->
                             <div class="float-right">
                                     <a href="{{ route('libros.pdf') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                        {{ __('Ver PDF') }}
+                                        {{ __('Ver Doc. PDF') }}
                                     </a>
                                 </div>
 
-                                <!-- /**Boton para imprimir pdf****/ -->
+                                <!-- /**Boton para descargar pdf****/ -->
                                 <div class="float-right">
                                     <a href="{{ route('libros.descargar-pdf') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                        {{ __('Descargar PDF') }}
+                                        {{ __('Descargar formato PDF') }}
                                     </a>
                                 </div>
 
