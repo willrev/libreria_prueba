@@ -1,0 +1,58 @@
+
+body{
+  font-family: sans-serif;
+  background-color: rgb(128, 170, 207);
+}
+
+@page {
+  margin: 160px 50px;
+}
+
+h1 { position: relative;
+  left: 80px;
+  top: -160px;
+  right: 0px;
+  height: 100px;
+  background-color: #ddd;
+  text-align: center;
+  color: blue;
+}
+
+header h1{
+  margin: 10px 0;
+  font-size: 18px;
+  color: rgb(214, 235, 228);
+}
+
+header h2{
+  margin: 0 0 10px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: rgb(64, 95, 85);
+}
+
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: -50px;
+  right: 0px;
+  height: 40px;
+  border-bottom: 2px solid #ddd;
+}
+
+footer .page:after {
+  content: counter(page);
+}
+
+footer table {
+  width: 100%;
+}
+footer p {
+  text-align: right;
+}
+
+footer .izq {
+  text-align: left;
+}
+
