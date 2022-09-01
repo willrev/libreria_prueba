@@ -151,6 +151,7 @@ class LibroController extends Controller
         $libros = Libro::paginate();
         $pdf = FacadePdf::loadView('libro.pdf',['libros'=>$libros]);  
         //return $pdf->stream(); /*Muestra el documento pdf.*/       
-        return $pdf->download('libro.pdf');/*Descrga el documento pdf*/
+        return $pdf->download('libro.pdf');/*Descarga el documento 
+        en un formato pdf*/
     }
 }
